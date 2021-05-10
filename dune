@@ -1,0 +1,4 @@
+(executable
+ (name probe)
+ (libraries base core)
+ (preprocess (pps ppx_jane)))
